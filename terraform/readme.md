@@ -1,5 +1,6 @@
 # Databricks Terraform Provider
-https://github.com/databricks/terraform-provider-databricks
+https://registry.terraform.io/providers/databricks/databricks/latest/docs  
+https://github.com/databricks/terraform-provider-databricks  
 
 ### set up & configure terraform
 ```shell
@@ -13,7 +14,11 @@ terraform
 
 ### provision azure databricks env {script}
 ```shell
+# log into azure account
+# "id": "66389d29-a9b6-425b-b699-f6894520d87d"
 az login
+az account show
+az account show --output table
 ```
 
 ### build workspace
